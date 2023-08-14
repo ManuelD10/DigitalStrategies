@@ -1,0 +1,242 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+h2{
+    font-weight: bold;
+}
+.header{
+    background-image: url(../images/BackMobile.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: top;
+    padding-top: 42px;
+    padding-bottom: 66px;
+}
+.header-txt{
+    color: white;
+}
+
+.header-txt h1{
+    font-size: 24px;
+    line-height: 22px;
+    margin-top: 32px;
+    margin-bottom: 32px;
+    font-weight: bold;
+}
+
+.header-txt p{
+    font-size: 16px;
+}
+
+.header-timer{
+    margin-top: 74px;
+}
+
+.header-timer h2{
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.ctn-info-form{
+    display: flex;
+    flex-direction: column;
+}
+
+.ctn-form{
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 0px 4px 18px 0px rgba(0, 94, 236, 0.25);
+    display: flex;
+    padding: 40px;
+    flex-direction: column;
+    gap: 24px;
+}
+.ctn-form h2{
+    text-align: center;
+}
+.ctn-info{
+    margin-top: 60px;
+}
+.ctn-info h2{
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+.ctn-value{
+    margin-top: 40px;
+}
+
+.ctn-cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.ctn-cards :first-child{
+    margin-right: 20px;
+}
+.cards{
+    border-radius: 8px;
+    background: white;
+    box-shadow: 0px 4px 10px #00000038;
+    padding: 16px 8px;
+    text-align: center;
+    align-items: center;
+    flex: 38%;
+    margin-top: 20px;
+}
+
+.cards p{
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.cards img{
+    width: 40px;
+    height: 40px;
+}
+.ctn-info-acceso{
+    margin-top: 60px;
+}
+.footer-page{
+    background-color: #00255D;
+    text-align: center;
+    margin-top: 60px;
+}
+.footer-page img{
+    width: 100px;
+    margin: 12px 0px;
+}
+
+/* Form */
+.register-button{
+    border-radius: 16px !important;
+    background: #005EEC;
+    padding: 16px 24px;
+    color: white;
+    border: 0px !important;
+    width: 100% !important;
+    margin: 0px !important;
+    margin-top: 24px !important;
+}
+
+/* Clock */
+
+#cuenta {
+	display: flex;
+	justify-content: center;
+}
+
+.simply-section {
+	background: #fff;
+	width: 88px;
+	height: 123px;
+	margin: 0 10px;
+	border-radius: 5px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.25);
+    text-align: center;
+}
+
+.simply-amount {
+	display: block;
+	font-size: 50px;
+	font-weight: 700;
+}
+
+.simply-word {
+	font-weight: 300;
+	font-size: 14px;
+}
+
+
+@media (min-width: 768px) {
+    .header{
+        background-image: url(../images/BackDesktop.png);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-position: top;
+    }
+}
+
+@media (min-width: 1024px) {
+    .header{
+        display: flex;
+        padding: 40px 50px;
+        gap: 80px;
+    }
+    /* .header-txt{
+        flex: 1;
+    } */
+    .header-timer{
+        flex: 1;
+    }
+    .header-timer h2{
+        color: white;
+    }
+    .ctn-info-form{
+        flex-direction: row;
+        gap: 32px;
+    }
+    .ctn-form{
+        order: 1;
+    }
+    .ctn-info {
+        margin-top: 0px;
+        flex: 2;
+    }
+    .ctn-info-acceso{
+        display: flex;
+        gap: 32px;
+    }
+    .ctn-txt-acceso{
+        width: 40%;
+    }
+    #cuenta{
+        justify-content: left;
+    }
+}
+
+@media (min-width: 1500px) {
+    .header{
+        padding: 50px 180px;
+    }
+    .header-txt {
+        width: 790px;
+    }
+    .header-timer {
+        width: 361px;
+    }
+    .header-txt h1{
+        font-size: 32px;    
+        line-height: 38px;
+    }
+    .header-txt p {
+        font-size: 16px;
+    }
+    .ctn-info-form{
+        margin-top: 60px;
+        gap: 172px;
+    }
+    .ctn-cards{
+        gap: 20px;
+    }
+    .ctn-cards :first-child{
+        margin-right: 0px;
+    }
+    .cards{
+        flex: 170px;
+        padding: 24px 16px;
+    }
+    
+    .acceso{
+        margin-top: -230px;
+    }
+    .ctn-txt-acceso {
+        width: 30%;
+    }
+    .ctn-info-acceso {
+        margin-top: 0px;
+    }
+
+}
