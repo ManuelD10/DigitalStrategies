@@ -4,6 +4,15 @@ body{
     padding: 0px;
     font-family: Helvetica, sans-serif;
 }
+h2{
+    margin: 0px;
+}
+h3{
+    margin: 0px;
+}
+a{
+    text-decoration: none;
+}
 .headerStrategies{
     display: flex;
     background: #FFF;
@@ -61,7 +70,7 @@ body{
 }
 .ctnStepDescription{
     background: white;
-    border: 1px solid #00538F;
+    border: 1px solid #E0E0E0;
     border-radius: 8px;
     padding: 24px;
     margin-left: 16px;
@@ -87,4 +96,77 @@ body{
     display: flex;
     align-items: baseline;
 }
-
+.btn-main{
+    background: #00538F;
+    color: white;
+    border-radius: 16px;
+    padding: 16px 0px;
+    text-decoration: none;
+    text-align: center;
+    width: 100%;
+}
+.profesion-intro{
+    margin: 24px;
+    margin-top: 80px;
+}
+.section-experts{
+    margin: 24px;
+}
+/* Expert Cards Style */
+.card{
+    display: flex;
+    width: 265px;
+    height: 338px;
+    padding: 24px 16px;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    border-radius: 8px;
+    box-shadow:  0px 4px 10px 0px rgba(0, 0, 0, 0.15);
+}
+.card__bacground-top{
+    width: 298px;
+    margin-top: -24px;
+    height: 92px;
+    position: absolute;
+    border-radius: 8px 8px 0px 0px;
+    background: linear-gradient(99deg, #00538F 2.36%, #A0BDF4 110.77%);
+}
+.card__profile-image{
+    z-index: 2;
+}
+.card__container-name{
+    text-align: center;
+    margin-top: -8px;
+}
+.card__expert-name{
+    color: #000;
+    font-family: Helvetica Neue;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: normal;
+    margin: 0px;
+}
+.card__expert-profesion{
+    color: #000;
+    font-family: Helvetica Neue;
+    font-size: 14px;
+    font-weight: 200;
+    line-height: normal;
+    margin: 0px;
+}
+.card__intro{
+    color: #000;
+    text-align: center;
+    font-family: Helvetica Neue;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: normal;
+}
+.card__price{
+    color: #505050;
+    font-family: Helvetica Neue;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: normal;
+}
